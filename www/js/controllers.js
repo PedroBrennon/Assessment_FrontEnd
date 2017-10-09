@@ -40,17 +40,74 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 })
+.controller('PerfilCtrl', function($scope) {
+  
+})
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+.controller('CachorrosCtrl', function($scope) {
+  $scope.titulo = "Busca por cachorros";
+  $scope.animais = [
+    {
+    "id": "1",
+    "nome": "Thor ",
+    "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+    "contato": "21543776",
+    "imagem": "http://lorempixel.com/400/200//"
+    },
+    {
+    "id": "2",
+    "nome": "Spike",
+    "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+    "contato": "21544556",
+    "imagem": "http://lorempixel.com/400/200/"
+    },
+    {
+    "id": "3",
+    "nome": "Half",
+    "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+    "contato": "37712676",
+    "imagem": "http://lorempixel.com/400/200/"
+    },
+    {
+    "id": "4",
+    "nome": "Pit",
+    "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+    "contato": "36715467",
+    "imagem": "http://lorempixel.com/400/200/"
+    }
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+.controller('GatosCtrl', function($scope) {
+  $scope.titulo = "Busca por gatos";
+  $scope.animais = [
+    {
+      "id": "1",
+      "nome": "Miau",
+      "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+      "contato": "21543776",
+      "imagem": "http://lorempixel.com/400/200//"
+    },
+    {
+      "id": "2",
+      "nome": "Bilu",
+      "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+      "contato": "21544556",
+      "imagem": "http://lorempixel.com/400/200/"
+    },
+    {
+      "id": "3",
+      "nome": "Cat",
+      "descricao": "Podemos já vislumbrar o modo pelo qual o desenvolvimento contínuo de distintas formas de atuação aponta para a melhoria das diretrizes de desenvolvimento para o futuro. Por outro lado, a execução dos pontos do programa é uma das consequências do levantamento das variáveis envolvidas.",
+      "contato": "37712676",
+      "imagem": "http://lorempixel.com/400/200/"
+    },
+    {
+      "id": "4",
+      "nome": "Silas",
+      "descricao": "No entanto, não podemos esquecer que o desenvolvimento contínuo de distintas formas de atuação cumpre um papel essencial na formulação das condições financeiras e administrativas exigidas. O que temos que ter sempre em mente é que a percepção das dificuldades exige a precisão e a definição do impacto na agilidade decisória.",
+      "contato": "36715467",
+      "imagem": "http://lorempixel.com/400/200/"
+    }
+  ];
+})
